@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-100.9851,"y":-159.5663},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-210.0,"y":-21.0},"guid":"dff3e447-70e7-473a-afa2-c21a3bd12dff","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-409.0,"y":-329.0},"guid":"e486ff1a-9445-4af7-a279-393f2cf0da2d","$version":"A","$type":"Bolt.Start","$id":"11"},{"defaultValues":{"duration":{"$content":10.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-219.0,"y":-326.0},"guid":"d901d1ad-81f4-4756-881a-685fdcb33f05","$version":"A","$type":"Bolt.Timer","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"start","guid":"d151b3b2-fd93-4b2b-978f-4c554a009e60","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
