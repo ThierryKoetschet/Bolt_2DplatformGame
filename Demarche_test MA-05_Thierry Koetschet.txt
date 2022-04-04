@@ -1,0 +1,13 @@
+Démarche évaluation MA-05 :
+
+1. Créer la branche Test-Examen
+2. Créer les GameObjects pour la pomme et l'abeille (importer les fichiers png + 
+   donner un rigidbody à chaque GameObject)
+3. Créer une Flowmachine dans le GameObject apple
+4. Détecter la collision avec le joueur
+5. Faire disparaître la pomme
+6. Générer l'abeille de manière aléatoire sur la scène
+7. L'intelligence artificielle de l'abeille lui permet de poursuivre de le joueur
+8. Détecter la collision avec le joueur
+9. Evénement death du joueur en cas de collision
+10. L'abeille disparaît au bout de 10 secondes
